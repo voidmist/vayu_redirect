@@ -5,10 +5,10 @@
 		<script>
  var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
     if(!isChrome){
-      $('#iframeAudio').remove()
+      $('#iframe').remove()
     }
   else{
-     $('#playAudio').remove()  
+     $('#normal').remove()  
   }
 </script>
 
@@ -16,11 +16,11 @@
 		<title> Redirection Page </title>
 	</head>
 	<body>
-		<h1> Thanks for Voting! Yay!! </h1>
-		<iframe src="Success-3.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+		<h1> Thanks for Voting!! </h1>
+		<iframe src="Success-3.mp3" allow="autoplay" style="display:none" id="iframe">
 </iframe> 
 		<audio autoplay>
- 			 <source src="Success-3.mp3" type="audio/mpeg">
+ 			 <source src="Success-3.mp3" type="audio/mpeg" id="normal">
 			Not working
 		</audio>
 	</body>
