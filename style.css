@@ -1,0 +1,39 @@
+.text {
+    font-family: Futura,"Trebuchet MS", Arial, sans-serif; 
+    padding: 0px;
+    transform: translateY(-200px);
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+h1.color {
+    color: rgb(27, 27, 27);
+}
+
+h2.color {
+    color: #672999;
+}
+
+.yay1 {
+    padding: 0px;
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    transform: translateX(220px) translateY(50px);
+    
+  
+}
+.yay2 {
+    padding: 0px;
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    transform: translateX(-220px) translateY(-442px) scaleX(-1);
+    
+}
+
