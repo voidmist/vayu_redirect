@@ -1,27 +1,36 @@
 <!doctype html>
 <html>
-	<head>
-		<meta http-equiv="refresh" content="5;url=https://bit.ly/ambermanthantest">
-		<script>
- var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-    if(!isChrome){
-      $('#iframe').remove()
-    }
-  else{
-     $('#normal').remove()  
-  }
-</script>
-
-
-		<title> Redirection Page </title>
-	</head>
-	<body>
-		<h1> Thanks for Voting!! </h1>
-		<iframe src="Success-3.mp3" allow="autoplay" style="display:none" id="iframe">
-</iframe> 
-		<audio autoplay>
- 			 <source src="Success-3.mp3" type="audio/mpeg" id="normal">
+<head>
+	<meta http-equiv="refresh" content="5;url=https://bit.ly/ambermanthantest">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script>
+		var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+		if(!isChrome){
+			$('#iframe').remove()
+		}
+		else{
+			$('#normal').remove()  
+		}
+	</script>
+	
+	
+	<title> Redirection Page </title>
+</head>
+<body>
+	<iframe src="Success-3.mp3" allow="autoplay" style="display:none" id="iframe">
+	</iframe> 
+	<audio autoplay>
+		<source src="Success-3.mp3" type="audio/mpeg" id="normal">
 			Not working
 		</audio>
+		<img class="yay1" src="thumb.svg"> 
+		<div class="text">
+			<h2 class="color"> House AmberTest </h2>
+			<h1 class="color"> Thanks for Voting!! </h1>
+		</div>
+		<img class="yay2 rev" src="thumb.svg"> 
+		
+		
 	</body>
-</html>
+	</html>
+	
