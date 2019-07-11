@@ -1,3 +1,7 @@
+body {
+    background-color: #009933;
+}
+
 .text {
     font-family: Futura,"Trebuchet MS", Arial, sans-serif; 
     padding: 0px;
@@ -8,11 +12,11 @@
 }
 
 h1.color {
-    color: rgb(27, 27, 27);
+    color: #fff;
 }
 
 h2.color {
-    color: #672999;
+    color: #FFF;
 }
 
 .yay1 {
