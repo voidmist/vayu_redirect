@@ -20,7 +20,10 @@ h1.color {
 }
 
 h2.color {
-    color: #4C33FF;
+    background: #333399;  
+background: -webkit-linear-gradient(to right, #333399, #ff00cc); 
+background: linear-gradient(to right, #333399, #ff00cc); 
+
 }
 
 .yay1 {
