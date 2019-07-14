@@ -3,7 +3,7 @@ img {
     height: 32.25%;
 }
 body {
-    background-color: #4C33FF;
+    background-color: #FFF;
 }
 
 .text {
@@ -16,11 +16,11 @@ body {
 }
 
 h1.color {
-    color: #fff;
+    color: #000000;
 }
 
 h2.color {
-    color: #FFF;
+    color: #4C33FF;
 }
 
 .yay1 {
