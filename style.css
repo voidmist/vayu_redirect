@@ -23,6 +23,8 @@ h2.color {
     background: #333399;  
 background: -webkit-linear-gradient(to right, #333399, #ff00cc); 
 background: linear-gradient(to right, #333399, #ff00cc); 
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }
 
